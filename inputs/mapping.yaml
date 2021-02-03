@@ -20,23 +20,26 @@ spatial_mapping_fixed:
   weight:
     MAC: []
     0:
-      Col: [[OY,13]]
-      Row: [[FY,3],[C,2],[K,2]]
+      Col: [[K,64]]
+      Row: [[FY,3],[FX,3],[C,16]]
     1: []
+    2: []
   input:
     MAC: []
     0:
-      Col: [[OY,13]]
-      Row: [[FY,3],[C,2],[K,2]]
+      Col: [[K,64]]
+      Row: [[FY,3],[FX,3],[C,16]]
     1: []
     2: []
+    3: []
   output:
     MAC: []
     0:
-      Col: [[OY,13]]
-      Row: [[FY,3],[C,2],[K,2]]
+      Col: [[K,64]]
+      Row: [[FY,3],[FX,3],[C,16]]
     1: []
     2: []
+    3: []
 
 # SPATIAL MAPPING HINT LIST
 # used as hint if 'hint_driven' spatial_unrolling_search_method is chosen in the setting file.

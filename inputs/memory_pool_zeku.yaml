@@ -1,0 +1,55 @@
+on_chip_w :
+  size_bit: 36864000
+  mem_bw: [73728]
+  area: [0.0001]
+  cost:
+    read_word: [16]
+    write_word: [16]
+  mem_type: dual_port_double_buffered
+
+
+buffer_io :
+  size_bit: 92160000
+  mem_bw: [4608]
+  area: [0.0001]
+  cost:
+    read_word: [16]
+    write_word: [16]
+  mem_type: dual_port_double_buffered
+
+
+off_chip :
+  size_bit: 800000000
+  mem_bw: [512]
+  area: [0.0001]
+  cost:
+    read_word: [16]
+    write_word: [16]
+  mem_type: dual_port_double_buffered
+
+local_w :
+  size_bit: 8
+  mem_bw: [8]
+  area: [0.0001]
+  cost:
+    read_word: [16]
+    write_word: [16]
+  mem_type: dual_port_double_buffered
+
+local_i :
+  size_bit: 8
+  mem_bw: [8]
+  area: [0.0001]
+  cost:
+    read_word: [16]
+    write_word: [16]
+  mem_type: dual_port_double_buffered
+
+local_o :
+  size_bit: 16
+  mem_bw: [16]
+  area: [0.0001]
+  cost:
+    read_word: [16]
+    write_word: [16]
+  mem_type: dual_port_double_buffered
